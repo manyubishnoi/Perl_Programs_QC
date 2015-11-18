@@ -1,13 +1,8 @@
 #-------------------------------------------------------------------------------#
-# Ath6kInstaller.pm   -  API for Ath6k code base				#
-# Author              -  SPE (spe@atheros.com)					#
-# Created on          -  06/01/2007						#
-# Last Modified       -  07/30/2012						#
+# Last Modified       -  09/30/2015						#
 #-------------------------------------------------------------------------------#
 
 package Sta::Install::Ath6kInstaller;
-
-use vars qw($VERSION);
 
 use strict;
 use warnings;
@@ -18,6 +13,7 @@ use File::Spec::Functions;
 use File::Copy;
 use Exporter;
 use Data::Dumper;
+use vars qw($VERSION);
 
 BEGIN {
 	our ($VERSION, @ISA, @EXPORT, @EXPORT_OK, %EXPORT_TAGS);
